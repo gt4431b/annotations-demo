@@ -12,6 +12,7 @@ import bill.example.annotations.Notification;
 import bill.example.annotations.Notifier;
 
 @Component
+// Here's Case 2 (mostly):
 public class NotificationRegistry implements BeanPostProcessor {
 
 	public List <Object> notifiers = new ArrayList <> ( ) ;
