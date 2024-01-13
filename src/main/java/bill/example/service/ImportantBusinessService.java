@@ -7,6 +7,8 @@ package bill.example.service;
  * reason that Spring originally required this was exactly for the
  * purpose I am illustrating here on annotations being used to use
  * the decorator pattern.
+ * 
+ * Nowadays you'd use CGLIB.
  */
 public interface ImportantBusinessService {
 
